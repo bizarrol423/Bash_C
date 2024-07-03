@@ -1,7 +1,7 @@
-#include "s21_cat.h"
+#include "s_cat.h"
 
 int main(int argc, char **argv) {
-  s21_cat(argc, argv);
+  s_cat(argc, argv);
   return 0;
 }
 cat_string pars_string = {.b_opt = 0,
@@ -13,7 +13,7 @@ cat_string pars_string = {.b_opt = 0,
                           .count_files = 0,
                           .file_args = NULL};
 
-void s21_cat(int argc, char **argv) {
+void s_cat(int argc, char **argv) {
   short error = 0;
   int i = 1;
   for (; i < argc && argv[i][0] == '-'; i++) {

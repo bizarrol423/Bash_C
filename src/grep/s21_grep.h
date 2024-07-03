@@ -1,5 +1,5 @@
-#ifndef SRC_GREP_S21_GREP_H_  //  SRC_GREP_S21_GREP_H_
-#define SRC_GREP_S21_GREP_H_  //  SRC_GREP_S21_GREP_H_
+#ifndef SRC_GREP_s_GREP_H_  //  SRC_GREP_s_GREP_H_
+#define SRC_GREP_s_GREP_H_  //  SRC_GREP_s_GREP_H_
 #include <regex.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -30,4 +30,4 @@ int flag_n(char *flag);
 void namefile_flag_l(int flag_l, int string_i, char **file, int i);
 void error_flag_s(int flag_s, int i, char **file);
 int logic_flag_v(int flag_v, int status);
-#endif  // SRC_GREP_S21_GREP_H_
+#endif  // SRC_GREP_s_GREP_H_

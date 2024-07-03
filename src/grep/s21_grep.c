@@ -1,4 +1,4 @@
-#include "s21_grep.h"
+#include "s_grep.h"
 
 int main(int argc, char *argv[]) {
   char *console_string = NULL;  // консольная строка
@@ -149,7 +149,7 @@ void namefile_flag_l(int flag_l, int string_i, char **file, int i) {
 }
 void error_flag_s(int flag_s, int i, char **file) {
   if (!flag_s && file[i] != NULL) {
-    fprintf(stderr, "./s21_grep: %s: No such file or directory\n", file[i]);
+    fprintf(stderr, "./s_grep: %s: No such file or directory\n", file[i]);
   }
 }
 int logic_flag_v(int flag_v, int status) {
